@@ -1,0 +1,17 @@
+<!-- here define the BackSide for anki card layout -->
+<div class="note back">
+	{{FrontSide}}
+	<hr id="answer" />
+
+	<div class="body">
+		<div style="display: none">
+			{{tts en_US voices=Apple_Fred:English}}
+			{{tts en_GB voices=Apple_Daniel:English}}
+		</div>
+		<div class="body center">
+			<div class="flex flex-col">
+				<div class="english">{{English}}</div>
+			</div>
+		</div>
+	</div>
+</div>
